@@ -32,6 +32,7 @@ nav {
   height: 100vh;
   background: #1d2226;
   width: 66%;
+  visibility: hidden;
 }
 
 .exit {
@@ -45,4 +46,25 @@ ul {
   list-style-type: none;
   padding: 0;
   margin-top: 4em;
+}
+
+li a {
+  color: #7b8994;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em 1em;
+}
+
+.open {
+  cursor: pointer;
+  margin: 0.5em;
+}
+
+.active a {
+  color: #008af8;
+  font-weight: bold;
+}
+
+li a:hover {
+  background: #2e363d;
 }
